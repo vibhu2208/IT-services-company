@@ -4,7 +4,7 @@ import React from 'react'
 const BigNews = () => {
     return (
         <div className='flex flex-col gap-8 p-8 md:p-16 text-white' style={{backgroundImage: 'url("/images/Types_of_Artificial_Intelligence.avif")', backgroundSize: "100%", objectFit: "cover", backgroundPosition: "center"}}>
-            <div className='md:w-[50%] w-full flex flex-col gap-10 p-8'>
+            <div className='md:w-[50%] w-full flex flex-col gap-10 md:p-8'>
                 <h2 className='md:text-6xl text-4xl font-bold' data-aos="fade-up" data-aos-delay="400">Big news!</h2>
                 <h2 className='md:text-5xl text-3xl font-medium' data-aos="fade-up" data-aos-delay="400">We are thrilled to announce the release of  Generative AI:</h2>
                 <p className='md:text-lg text-base' data-aos="fade-up" data-aos-delay="400">Announcing our innovative generative AI service. Discover the future of content creation with our Generative AI! This innovative technology enables us to create high-quality, unique text, photos, and videos that are personalized according to your specific requirements. Enhance your engagement with creative, engaging content. Explore the possibilities now!.</p>

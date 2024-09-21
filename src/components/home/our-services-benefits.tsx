@@ -60,7 +60,7 @@ const data: {
 const OurServicesBenefits = () => {
     const [index, setIndex] = useState(0);
     return (
-        <div className='bg-[#1A1A28] flex flex-col gap-8 p-16 text-white'>
+        <div className='bg-[#1A1A28] flex flex-col gap-8 p-8 md:p-16 text-white'>
             <h2 className='text-5xl font-medium' data-aos="fade-up" data-aos-delay="400">How our services benefit businesses</h2>
             <p className='text-lg' data-aos="fade-up" data-aos-delay="300">We created professional services to assist businesses develop enormously and stand out in the market.</p>
             <div className='flex gap-16 lg:flex-row flex-col'>

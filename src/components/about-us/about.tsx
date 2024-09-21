@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='flex flex-col gap-5 md:flex-row py-16 w-full px-4 max-w-6xl mx-auto'>
       <div className='flex-1' data-aos="fade-right" data-aos-delay="400">
-        <p className='uppercase text-md font-semibold text-sky-600'>About Vysnovy</p>
+        <h2 className='text-4xl font-bold text-[#1A1F65]'>About Vysnovy</h2>
         <p className='md:text-3xl text-2xl font-semibold mt-3'>
             What We Promise <br /> High Quality IT Solutions
         </p>

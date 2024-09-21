@@ -1,25 +1,33 @@
 "use client";
 import React from 'react'
+import { FaUser } from 'react-icons/fa';
 import Carousel from "react-multi-carousel";
 
 const data = [
     {
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
-        name: "Judith Black",
-        desig: "CEO of Workcation",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=8"
+        desc: "Their creative solutions and prompt service made all the difference for our digital campaigns. We couldn't be happier!",
+        name: "Sumit Saurabh",
+        desig: "Marketing Director at Creative Agency",
     },
     {
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
-        name: "Judith Black",
-        desig: "CEO of Workcation",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=8"
+        desc: "As a startup, we needed a reliable IT partner, and Vysnovy exceeded our expectations. Their team is knowledgeable and always ready to help!",
+        name: "David P.",
+        desig: "Founder of StartUp Co.",
     },
     {
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
-        name: "Judith Black",
-        desig: "CEO of Workcation",
-        img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=8"
+        desc: "We were impressed with how quickly Vysnovy understood our needs and delivered tailored solutions. Fantastic service!",
+        name: "Kavita Singh",
+        desig: "HR Manager at Global Corp",
+    },
+    {
+        desc: "The team at Vysnovy transformed our IT infrastructure. Their expertise and support have been invaluable, and our productivity has soared!",
+        name: "Raj Kamal",
+        desig: "CEO of Tech Innovations Inc.",
+    },
+    {
+        desc: "From cybersecurity to network management, Vysnovy has been our go-to partner. Their proactive approach has kept us ahead of potential threats!",
+        name: "Rahul Kumar",
+        desig: "Operations Manager at Retail Hub",
     },
 ]
 
@@ -85,7 +93,9 @@ const Testimonials = () => {
                                     <p>“{item.desc}”</p>
                                 </blockquote>
                                 <figcaption className="mt-10">
-                                    <img className="mx-auto h-10 w-10 rounded-full" src={item.img} alt="" />
+                                    <p className='flex justify-center text-2xl md:text-4xl'>
+                                    <FaUser /> 
+                                    </p>
                                     <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                                         <div className="font-semibold text-gray-900">{item.name}</div>
                                         <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" className="fill-gray-900">
