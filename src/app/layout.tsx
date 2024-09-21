@@ -20,6 +20,12 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Vysnovy",
   description: "IT service and consulting company",
+  icons: [
+    {
+      url: '/images/favicon.ico',
+      href: '/images/favicon.ico',
+    }
+  ]
 };
 
 export default function RootLayout({

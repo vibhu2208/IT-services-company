@@ -3,31 +3,31 @@ import React from 'react'
 
 const cardsData = [
     {
-        img: "https://www.vertexelites.com/img/services/service_1.jpeg",
+        img: "/images/services-card/it-consulting.jpeg",
         title: "IT Consulting",
         desc: "By addressing challenges related to operational effectiveness, business expansion, technology, and management, we help businesses find new technology-driven opportunities.",
         link: ""
     },
     {
-        img: "https://www.vertexelites.com/img/what-we-offer/service_2.jpg",
+        img: "/images/services-card/development.jpg",
         title: "Development Services",
         desc: "We provide application services for businesses to develop their global penetration and improve their operations' efficiency, security, and functionality.",
         link: ""
     },
     {
-        img: "https://www.vertexelites.com/img/services/service_3.jpeg",
+        img: "/images/services-card/staffing.jpeg",
         title: "Staffing",
         desc: "Our professional team works dedicatedly to provide you with the best candidates for the specific role and to efficiently meet our clients' requirements.",
         link: ""
     },
     {
-        img: "https://www.vertexelites.com/img/services/service_3.jpeg",
+        img: "/images/services-card/emerging-tech.jpeg",
         title: "Emerging Technology",
         desc: "Vysnovy has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
         link: ""
     },
     {
-        img: "https://www.vertexelites.com/img/services/service_3.jpeg",
+        img: "/images/services-card/digital.jpeg",
         title: "Digital Marketing",
         desc: "We provide businesses with digital transformation to promote their businesses through creative digital marketing methods and customer experience.",
         link: ""
@@ -46,10 +46,10 @@ type CardType = {
 const Card = ({ data }: CardType) => {
     return (
         <div className="max-w-xs bg-white border border-gray-200 rounded-lg hover:shadow-2xl transition-shadow flex flex-col">
-            <div className='p-2 rounded-lg overflow-hidden object-cover'>
+            <div className='p-2 rounded-lg overflow-hidden object-cover h-40'>
                 <img className="rounded-t-lg" src={data.img} alt="" />
             </div>
-            <Link href="/services">
+            <Link href={`/services/${data.title.toLowerCase().replaceAll(" ", "-")}`}>
                 <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col">
                     <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]">{data.title}</h5>
                     <p className="mb-3 text-normal text-gray-700 dark:text-gray-400 text-justify">{data.desc}</p>

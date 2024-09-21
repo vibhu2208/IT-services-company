@@ -1,20 +1,20 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Carousel from 'react-multi-carousel'
 
 const data = [
-    "https://www.dwellfox.com/Assets/micro.png",
-    "https://www.dwellfox.com/Assets/data.png",
-    "https://www.dwellfox.com/Assets/atla.png",
-    "https://www.dwellfox.com/Assets/aws.png",
-    "https://www.dwellfox.com/Assets/big.png",
-    "https://www.dwellfox.com/Assets/shopify.png"
+    "/images/companies/micro.png",
+    "/images/companies/data.png",
+    "/images/companies/atla.png",
+    "/images/companies/aws.png",
+    "/images/companies/big.png",
+    "/images/companies/shopify.png"
 ]
 
 const CompanySlider = () => {
     return (
         <div className='bg-white gap-8 p-8 md:p-16 flex flex-col'>
-            <h2 className='text-4xl font-bold text-[#1A1F65] text-center' data-aos="fade-up" data-aos-delay="500">Our Partners</h2>
+            <h2 className='text-4xl font-bold text-[#1A1F65] text-center' data-aos="fade-up" data-aos-delay="800">Our Partners</h2>
             <Carousel
                 additionalTransfrom={0}
                 ssr={true}

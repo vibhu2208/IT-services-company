@@ -28,7 +28,7 @@ const Testimonials = () => {
         <section className="relative isolate overflow-hidden bg-white py-16">
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"></div>
             <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
-            <h2 className='text-4xl font-bold text-center' data-aos="fade-up" data-aos-delay="500">Our <span className='text-[#1A1F65]'>Testimonial </span></h2>
+            <h2 className='text-4xl font-bold text-center' data-aos="fade-up" data-aos-delay="400">Our <span className='text-[#1A1F65]'>Testimonial </span></h2>
 
             <Carousel
                 additionalTransfrom={0}
@@ -81,7 +81,7 @@ const Testimonials = () => {
                     data.map((item, i) => (
                         <div className="mx-auto h-full w-full max-w-2xl lg:max-w-4xl" key={i}>
                             <figure className="mt-10">
-                                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                                <blockquote className="text-center text-sm md:text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                                     <p>“{item.desc}”</p>
                                 </blockquote>
                                 <figcaption className="mt-10">

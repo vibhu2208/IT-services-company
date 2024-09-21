@@ -21,19 +21,19 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col flex-wrap px-4 gap-4'>
                     <p className='uppercase text-lg font-semibold text-white'>Our Services</p>
-                    <Link href={"/services"} className='text-gray-300 font-normal'>
+                    <Link href={"/services/it-consulting"} className='text-gray-300 font-normal'>
                         IT Consulting
                     </Link>
-                    <Link href={"/services"} className='text-gray-300 font-normal'>
+                    <Link href={"/services/development-Services"} className='text-gray-300 font-normal'>
                         Development Services
                     </Link>
-                    <Link href={"/services"} className='text-gray-300 font-normal'>
+                    <Link href={"/services/staffing"} className='text-gray-300 font-normal'>
                         Staffing
                     </Link>
-                    <Link href={"/services"} className='text-gray-300 font-normal'>
+                    <Link href={"/services/emerging-technology"} className='text-gray-300 font-normal'>
                         Emerging Technology
                     </Link>
-                    <Link href={"/services"} className='text-gray-300 font-normal'>
+                    <Link href={"/services/digital-marketing"} className='text-gray-300 font-normal'>
                         Digital Marketing
                     </Link>
                 </div>

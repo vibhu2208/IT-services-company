@@ -40,22 +40,22 @@ const Navbar = () => {
                 </div>
             </nav>
             {menuStatus && <div className={`flex ps-10 gap-3 flex-col md:hidden border-t absolute bg-white w-full transition-all`}>
-                <div onClick={() => setMenuStatus((pre) => (false))} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/" ? "text-[#1A1F65]" : ""}`}>
+                <div onClick={() => setMenuStatus(false)} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/" ? "text-[#1A1F65]" : ""}`}>
                     <Link href={"/"} className='text-nowrap'>
                         Home
                     </Link>
                 </div>
-                <div onClick={() => setMenuStatus((pre) => (false))} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/about-us" ? "text-[#1A1F65]" : ""}`}>
+                <div onClick={() => setMenuStatus(false)} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/about-us" ? "text-[#1A1F65]" : ""}`}>
                     <Link href={"/about-us"} className='text-nowrap'>
                     About Us
                     </Link>
                 </div>
-                <div onClick={() => setMenuStatus((pre) => (false))} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/services" ? "text-[#1A1F65]" : ""}`}>
+                <div onClick={() => setMenuStatus(false)} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/services" ? "text-[#1A1F65]" : ""}`}>
                     <Link href={"/services"} className='text-nowrap'>
                         Services
                     </Link>
                 </div>
-                <div onClick={() => setMenuStatus((pre) => (false))} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/contact-us" ? "text-[#1A1F65]" : ""}`}>
+                <div onClick={() => setMenuStatus(false)} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/contact-us" ? "text-[#1A1F65]" : ""}`}>
                     <Link href={"/contact-us"} className='text-nowrap'>
                         Contact Us
                     </Link>

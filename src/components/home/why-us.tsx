@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { AiOutlineTeam } from 'react-icons/ai'
 
@@ -11,9 +12,11 @@ const WhyUs = () => {
                 <p className='text-xl' data-aos="fade-up" data-aos-delay="300">
                     We believe in integrity, innovation, constant improvement, commitment to customers, teamwork and trust. We provide high-level planning and infrastructure consulting through technology partnerships. We work on developing your technology implementation and management plan.
                 </p>
-                <div data-aos="fade-up" data-aos-delay="300" className='px-8 py-2 cursor-pointer w-fit font-medium bg-[#211E6D] hover:bg-sky-700 transition-all text-white rounded-lg shadow-lg'>
-                    More About Us
-                </div>
+                <Link href={"about-us"}>
+                    <div data-aos="fade-up" data-aos-delay="300" className='px-8 py-2 cursor-pointer w-fit font-medium bg-[#211E6D] hover:bg-sky-700 transition-all text-white rounded-lg shadow-lg'>
+                        More About Us
+                    </div>
+                </Link>
             </div>
             <div className='flex flex-col gap-4 flex-1'>
                 <div data-aos="fade-up" data-aos-delay="300" className='bg-white rounded-lg shadow-xl p-4 mr-4 flex gap-2'>
