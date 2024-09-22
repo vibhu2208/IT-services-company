@@ -207,7 +207,7 @@ const ServiceComponent = ({ params }: { params: { service: string } }) => {
                             </span>
                         </p>
                         <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                        <p className='mt-3 text-justify border-l-[3px] -ml-3 pl-3 flex-1'>
+                        <p className='mt-3 text-left md:text-justify border-l-[3px] -ml-3 pl-3 flex-1'>
                             {item.desc}
                         </p>
                         {

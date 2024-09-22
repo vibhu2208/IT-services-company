@@ -9,19 +9,19 @@ const MissionVision = () => {
           We Provide Truly Prominent <br />
           IT Solutions.
         </p>
-        <p className='text-gray-700 text-justify'>
+        <p className='text-gray-700 text-left md:text-justify'>
           We offer consulting services, Staffing services to Fortune 500 corporations, public agencies, and small and mid-sized businesses throughout North America.
         </p>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
           <div className='flex-1'>
             <p className='capitalize text-md font-semibold text-[#1A1F65]'>Our Mission</p>
-            <p className='pt-2 text-gray-700 text-justify'>
+            <p className='pt-2 text-gray-700 text-left md:text-justify'>
               We have a passion for technology and helping IT organizations to operate more effectively. We can help you transform your IT processes, applications and infrastructure by using the latest technologies
             </p>
           </div>
           <div className='flex-1'>
             <p className='capitalize text-md font-semibold text-[#1A1F65]'>Our Vision</p>
-            <p className='pt-2 text-gray-700 text-justify'>
+            <p className='pt-2 text-gray-700 text-left md:text-justify'>
               To be the most trusted information technology consulting service by demonstrating superior domain expertise and providing the best possible service to all of our stakeholders.
             </p>
           </div>

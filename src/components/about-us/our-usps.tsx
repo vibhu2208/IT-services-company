@@ -18,7 +18,7 @@ const OurUsps = () => {
                         </span>
                     </p>
                     <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                    <p className='mt-3 text-justify'>
+                    <p className='mt-3 text-left md:text-justify'>
                         With years of expertise, we have built a reputation for delivering on time. Our goal is to promptly deliver the client&apos;s requested solution, allowing them to use it further to perform their business operations.
                     </p>
                 </div>
@@ -30,7 +30,7 @@ const OurUsps = () => {
                         </span>
                     </p>
                     <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                    <p className='mt-3 text-justify'>
+                    <p className='mt-3 text-left md:text-justify'>
                         We have highly qualified individuals that are trained to work on the projects and are experts in a variety of cutting-edge technologies. This enables us to meet customer’s needs and lead the industry.
                     </p>
                 </div>
@@ -42,7 +42,7 @@ const OurUsps = () => {
                         </span>
                     </p>
                     <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                    <p className='mt-3 text-justify'>
+                    <p className='mt-3 text-left md:text-justify'>
                         Our goal is to give our customers the greatest IT help possible, so we&apos;ve created a special customer support system to handle all of the technical problems. A dedicated staff is available for you 24/7.
                     </p>
                 </div>
@@ -54,7 +54,7 @@ const OurUsps = () => {
                         </span>
                     </p>
                     <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                    <p className='mt-3 text-justify'>
+                    <p className='mt-3 text-left md:text-justify'>
                         We work hard to offer high-quality projects to our clients since they depend on IT solutions for their operations, and compromising quality would hinder their ability to expand.
                     </p>
                 </div>
