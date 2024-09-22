@@ -575,7 +575,7 @@ const InnerServiceComponent = ({ params }: { params: { subservice: string } }) =
                           </span>
                       </p>
                       <span className='h-1 w-14 rounded bg-[#211E6D]'></span>
-                      <p className='mt-3 text-left md:text-justify border-l-[3px] -ml-3 pl-3'>
+                      <p className='mt-3 text-left border-l-[3px] -ml-3 pl-3'>
                           {item.desc}
                       </p>
                   </div>

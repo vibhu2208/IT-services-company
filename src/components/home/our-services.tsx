@@ -53,7 +53,7 @@ const Card = ({ data }: CardType) => {
             <Link href={`/services/${data.title.toLowerCase().replaceAll(" ", "-")}`}>
                 <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col">
                     <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
-                    <p className="mb-3 text-normal text-gray-700 text-left md:text-justify" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
+                    <p className="mb-3 text-normal text-gray-700 text-left" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
                     <p className='flex-1 justify-self-end' data-aos="fade-up" data-aos-delay="300"></p>
                     <p data-aos="fade-up" data-aos-delay="300" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg">
                         Get more detail

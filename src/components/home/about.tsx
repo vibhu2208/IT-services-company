@@ -14,7 +14,7 @@ const About = () => {
         <p className='md:text-3xl text-2xl font-semibold mt-3'>
             What We Promise <br /> High Quality IT Solutions
         </p>
-        <p className='pt-4 text-gray-700 text-justify'>
+        <p className='pt-4 text-gray-700'>
         Techthrivesystem is a consulting, IT staffing solutions and workforce support services. We are based out of Houston, TX. We offer a comprehensive portfolio of high-quality, high-value and unparalleled networks of talented IT professionals, IT staffing solutions, IT workforce management expertise – delivered at a size and scale that sets us above any of our competitors. We help our clients achieve their business needs and address their IT workforce challenges by providing 24/7 support throughout the year.
         </p>
         <div className='grid grid-cols-2 my-3 gap-3'>
