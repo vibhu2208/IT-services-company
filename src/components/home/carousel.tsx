@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React from 'react'
 import { IoArrowForwardCircleOutline } from 'react-icons/io5';
 import Carousel from "react-multi-carousel";
 
@@ -38,8 +38,6 @@ const CustomDot = ({ ...rest }) => {
   };
 
 const CustomCarousel = () => {
-    const [autoPlay, setAutoPlay] = useState(false);
-    
     return (
         <Carousel
             additionalTransfrom={0}
