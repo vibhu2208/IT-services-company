@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='flex flex-col px-4 gap-4'>
                     <p className='uppercase text-lg font-semibold text-white'>About Company</p>
                     <p className='text-gray-300 font-normal'>
-                        Vysnovy is a consulting, IT staffing solutions and workforce support services. We are based out of Houston, TX.
+                        Techthrivesystem is a consulting, IT staffing solutions and workforce support services. We are based out of Houston, TX.
                     </p>
                     <p className='uppercase text-md font-semibold text-white'>Follow Us</p>
                     <p className='flex flex-wrap gap-2'>
@@ -40,10 +40,11 @@ const Footer = () => {
                 <div className='flex flex-col px-4 gap-4'>
                     <p className='uppercase text-lg font-semibold text-white'>Contact Us</p>
                     <div className='flex flex-col gap-3'>
-                        <div className='flex items-center gap-2 text-white'> <span className='rounded-full p-1 border border-white'><FaMapMarkerAlt className='text-md text-yellow-500' /></span> 9950 Westpark Dr Suite
-                            127 Houston, TX 77063</div>
+                        <div className='flex items-center gap-2 text-white'> <span className='rounded-full p-1 border border-white'><FaMapMarkerAlt className='text-md text-yellow-500' /></span>  
+                        IFZA free zone, Dubai</div>
                         <div className='flex items-center gap-2 text-white'> <span className='rounded-full p-1 border border-white'><MdEmail className='text-md text-yellow-500' /></span>
-                            info@vertexelites.com</div>
+                            Info@techthrivesystem.com
+                            </div>
                         <div className='flex items-center gap-2 text-white'> <span className='rounded-full p-1 border border-white'><FaPhoneVolume className='text-md text-yellow-500' /></span>
                             +1 (703) 220-1546</div>
                     </div>
@@ -51,7 +52,7 @@ const Footer = () => {
             </div>
             <hr />
             <p className='py-2 px-10 text-center text-white'>
-                © Copyright 2024 All rights reserved by Vysnovy
+                © Copyright 2024 All rights reserved by Techthrivesystem
             </p>
         </div>
     )

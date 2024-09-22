@@ -10,22 +10,22 @@ const data = [
         desig: "Marketing Director at Creative Agency",
     },
     {
-        desc: "As a startup, we needed a reliable IT partner, and Vysnovy exceeded our expectations. Their team is knowledgeable and always ready to help!",
+        desc: "As a startup, we needed a reliable IT partner, and Techthrivesystem exceeded our expectations. Their team is knowledgeable and always ready to help!",
         name: "David P.",
         desig: "Founder of StartUp Co.",
     },
     {
-        desc: "We were impressed with how quickly Vysnovy understood our needs and delivered tailored solutions. Fantastic service!",
+        desc: "We were impressed with how quickly Techthrivesystem understood our needs and delivered tailored solutions. Fantastic service!",
         name: "Kavita Singh",
         desig: "HR Manager at Global Corp",
     },
     {
-        desc: "The team at Vysnovy transformed our IT infrastructure. Their expertise and support have been invaluable, and our productivity has soared!",
+        desc: "The team at Techthrivesystem transformed our IT infrastructure. Their expertise and support have been invaluable, and our productivity has soared!",
         name: "Raj Kamal",
         desig: "CEO of Tech Innovations Inc.",
     },
     {
-        desc: "From cybersecurity to network management, Vysnovy has been our go-to partner. Their proactive approach has kept us ahead of potential threats!",
+        desc: "From cybersecurity to network management, Techthrivesystem has been our go-to partner. Their proactive approach has kept us ahead of potential threats!",
         name: "Rahul Kumar",
         desig: "Operations Manager at Retail Hub",
     },
@@ -36,7 +36,7 @@ const Testimonials = () => {
         <section className="relative isolate overflow-hidden bg-white py-16">
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"></div>
             <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
-            <h2 className='text-4xl font-bold text-center' data-aos="fade-up" data-aos-delay="400">Our <span className='text-[#1A1F65]'>Testimonial </span></h2>
+            <h2 className='text-4xl font-bold text-center' data-aos="fade-up" data-aos-delay="300">Our <span className='text-[#1A1F65]'>Testimonial </span></h2>
 
             <Carousel
                 additionalTransfrom={0}

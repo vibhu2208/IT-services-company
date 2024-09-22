@@ -23,7 +23,7 @@ const cardsData = [
     {
         img: "/images/services-card/emerging-tech.jpeg",
         title: "Emerging Technology",
-        desc: "Vysnovy has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
+        desc: "Techthrivesystem has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
         link: ""
     },
     {

@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vysnovy",
+  title: "Techthrivesystem",
   description: "IT service and consulting company",
   icons: [
     {

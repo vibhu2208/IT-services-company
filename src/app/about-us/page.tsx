@@ -7,6 +7,7 @@ import Testimonials from "@/components/testimorials";
 import MissionVision from '@/components/home/mission-vision'
 import OurUsps from '@/components/about-us/our-usps'
 import Aos from "aos";
+import HaveQuestion from '@/components/have-question'
 
 const AboutPage = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const AboutPage = () => {
         <OurUsps />
         <CompanySlider />
         <Testimonials />
+        <HaveQuestion />
     </div>
   )
 }

@@ -24,7 +24,7 @@ const cardsData = [
     {
         img: "/images/services-card/emerging-tech.jpeg",
         title: "Emerging Technology",
-        desc: "Vysnovy has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
+        desc: "Techthrivesystem has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
         link: ""
     },
     {
@@ -52,10 +52,10 @@ const Card = ({ data }: CardType) => {
             </div>
             <Link href={`/services/${data.title.toLowerCase().replaceAll(" ", "-")}`}>
                 <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col">
-                    <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]" data-aos="fade-up" data-aos-delay="400">{data.title}</h5>
-                    <p className="mb-3 text-normal text-gray-700 dark:text-gray-400 text-justify" data-aos="fade-up" data-aos-delay="400">{data.desc}</p>
-                    <p className='flex-1 justify-self-end' data-aos="fade-up" data-aos-delay="400"></p>
-                    <p data-aos="fade-up" data-aos-delay="400" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg">
+                    <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
+                    <p className="mb-3 text-normal text-gray-700 dark:text-gray-400 text-justify" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
+                    <p className='flex-1 justify-self-end' data-aos="fade-up" data-aos-delay="300"></p>
+                    <p data-aos="fade-up" data-aos-delay="300" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg">
                         Get more detail
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />

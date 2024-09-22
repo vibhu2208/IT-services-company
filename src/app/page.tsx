@@ -12,6 +12,7 @@ import Testimonials from "@/components/testimorials";
 import OurServicesBenefits from "@/components/home/our-services-benefits";
 import { useEffect } from "react";
 import Aos from "aos";
+import HaveQuestion from "@/components/have-question";
 
 export default function Home() {
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Home() {
       <IndustriesWeOffer />
       <CompanySlider />
       <Testimonials />
+      <HaveQuestion />
     </div>
   );
 }

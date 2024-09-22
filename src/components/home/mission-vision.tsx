@@ -3,7 +3,7 @@ import React from 'react'
 const MissionVision = () => {
   return (
     <div className='flex flex-col gap-5 lg:flex-row py-8 md:py-16 w-full px-4 max-w-6xl mx-auto'>
-      <div className='basis-2/3 pr-5 flex flex-col gap-5' data-aos="fade-right" data-aos-delay="400">
+      <div className='basis-2/3 pr-5 flex flex-col gap-5' data-aos="fade-right" data-aos-delay="300">
         <h2 className='text-4xl font-bold text-[#1A1F65]' data-aos="fade-up" data-aos-delay="300">Our Mission and Vision</h2>
         <p className='md:text-3xl text-2xl font-semibold'>
           We Provide Truly Prominent <br />
@@ -27,7 +27,7 @@ const MissionVision = () => {
           </div>
         </div>
       </div>
-      <div className='basis-1/3 flex items-center justify-center' data-aos="fade-left" data-aos-delay="400">
+      <div className='basis-1/3 flex items-center justify-center' data-aos="fade-left" data-aos-delay="300">
         <img className='max-h-[350px] object-cover' src="https://www.vertexelites.com/img/wh-us.jpeg" alt="" />
       </div>
     </div>
