@@ -561,7 +561,7 @@ const InnerServiceComponent = ({ params }: { params: { subservice: string } }) =
           <img src={serviceData.img} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
         </div>
       </div>
-      <div className='p-4 md:16 gap-4 md:gap-8 flex flex-col'>
+      <div className='xs:p-4 sm:p-8 md:16 gap-4 md:gap-8 flex flex-col'>
         <h2 className='text-4xl text-center font-bold text-[#211E6D]'>{serviceData.title2}</h2>
         <div className='grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto'>
           {
