@@ -82,7 +82,7 @@ const Navbar = () => {
                     </Link>
                 </div>
             </nav>
-            {menuStatus && <div className={`flex ps-10 gap-3 flex-col md:hidden border-t absolute bottom-0 translate-y-full bg-white w-full transition-all`}>
+            {menuStatus && <div className={`flex ps-5 sm:ps-10 gap-3 flex-col md:hidden border-t absolute bottom-0 translate-y-full bg-white w-full transition-all`}>
                 <Link href={"/"} className='text-nowrap'>
                     <div onClick={() => setMenuStatus(false)} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/" ? "text-[#1A1F65]" : ""}`}>
                         Home

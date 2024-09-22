@@ -2,16 +2,16 @@ import React from 'react'
 
 const OurMethodOfOperations = () => {
     return (
-        <div className='flex flex-col gap-8 p-8 md:p-16 bg-white'>
+        <div className='flex flex-col gap-8 p-4 md:p-16 bg-white'>
             <h2 className='text-4xl font-bold text-[#1A1F65]' data-aos="fade-up" data-aos-delay="300">Our Method of Operation</h2>
             <div className='flex flex-col gap-5'>
-                <p className='text-xl text-default-700 font-medium'>
+                <p className='md:text-xl text-base text-default-700 font-medium'>
                     With over a decade of industry experience in IT consultation & development service, we consistently deliver high-quality solutions to our clients worldwide. In addition, we develop a consulting & development methodology specific to the requirements of potential projects.
                 </p>
-                <p className='text-xl text-default-700 font-medium'>
+                <p className='md:text-xl text-base text-default-700 font-medium'>
                     Our dedication to quality has helped us gain the trust of our 250 + clients. Let us take you through our working methodology.
                 </p>
-                <div className="grid lg:grid-cols-6 grid-cols-3 gap-8 mt-5" data-aos="fade-up" data-aos-delay="300">
+                <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 md:gap-8 mt-5" data-aos="fade-up" data-aos-delay="300">
                     <div className="relative h-full">
                         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
                             1

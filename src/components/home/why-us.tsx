@@ -4,12 +4,12 @@ import { AiOutlineTeam } from 'react-icons/ai'
 
 const WhyUs = () => {
     return (
-        <div className='flex gap-8 md:gap-16 bg-[#f2f2f2] items-center p-8 md:p-16 flex-col lg:flex-row'>
-            <div className='flex w-full flex-col  gap-8 flex-1'>
+        <div className='flex gap-8 md:gap-16 bg-[#f2f2f2] items-center p-4 md:p-16 flex-col lg:flex-row'>
+            <div className='flex w-full flex-col  md:gap-8 gap-4 flex-1'>
                 <h2 className='text-4xl font-bold text-[#211E6D]' data-aos="fade-up" data-aos-delay="300">
                     Why TTS ?
                 </h2>
-                <p className='text-xl' data-aos="fade-up" data-aos-delay="300">
+                <p className='md:text-xl text-base' data-aos="fade-up" data-aos-delay="300">
                     We believe in integrity, innovation, constant improvement, commitment to customers, teamwork and trust. We provide high-level planning and infrastructure consulting through technology partnerships. We work on developing your technology implementation and management plan.
                 </p>
                 <Link href={"about-us"}>

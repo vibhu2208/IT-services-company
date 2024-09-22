@@ -552,18 +552,18 @@ const InnerServiceComponent = ({ params }: { params: { subservice: string } }) =
   return (
     <div className='h-full w-full overflow-hidden pb-12'>
       <PageHeader title={serviceName} desc={serviceData.desc} />
-      <div className="md:p-16 p-8 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+      <div className="md:p-16 p-4 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div>
-          <h2 className='text-5xl font-bold'><span className='text-[#1A1F65]'>{serviceData.title1} </span></h2>
+          <h2 className='md:text-5xl text-4xl font-bold'><span className='text-[#1A1F65]'>{serviceData.title1} </span></h2>
           <p className="mt-4 text-gray-600 text-lg">{serviceData.para1}</p>
         </div>
         <div className="mt-12 md:mt-0">
           <img src={serviceData.img} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
         </div>
       </div>
-      <div className='p-8 md:16 gap-8 flex flex-col'>
+      <div className='p-4 md:16 gap-4 md:gap-8 flex flex-col'>
         <h2 className='text-4xl text-center font-bold text-[#211E6D]'>{serviceData.title2}</h2>
-        <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto'>
+        <div className='grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto'>
           {
             serviceData.items.map((item, i) => {
               return(

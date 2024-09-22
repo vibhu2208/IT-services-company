@@ -12,7 +12,7 @@ const MissionVision = () => {
         <p className='text-gray-700 text-left md:text-justify'>
           We offer consulting services, Staffing services to Fortune 500 corporations, public agencies, and small and mid-sized businesses throughout North America.
         </p>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5'>
           <div className='flex-1'>
             <p className='capitalize text-md font-semibold text-[#1A1F65]'>Our Mission</p>
             <p className='pt-2 text-gray-700 text-left md:text-justify'>
