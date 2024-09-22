@@ -1,5 +1,6 @@
+"use client";
 import Link from 'next/link';
-import React from 'react'
+import React, { useState } from 'react'
 import { IoArrowForwardCircleOutline } from 'react-icons/io5';
 import Carousel from "react-multi-carousel";
 
@@ -37,6 +38,8 @@ const CustomDot = ({ ...rest }) => {
   };
 
 const CustomCarousel = () => {
+    const [autoPlay, setAutoPlay] = useState(false);
+    
     return (
         <Carousel
             additionalTransfrom={0}
@@ -93,7 +96,7 @@ const CustomCarousel = () => {
                 data.map((item, i) => {
                     return (
                         <div className='h-full w-full m-auto relative' key={i}>
-                            <video src={item.url} autoPlay loop></video>
+                            <video autoPlay loop muted src={item.url} />
                             <div className='absolute top-0 h-[100%] w-full text-white flex items-center justify-center flex-col gap-4'>
                                 <h2 data-aos="fade-up" data-aos-delay="300" className='lg:text-5xl md:text-4xl text-lg font-bold text-center'>{item.desc}</h2>
                                 <Link href="/services">

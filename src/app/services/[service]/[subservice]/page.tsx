@@ -567,7 +567,7 @@ const InnerServiceComponent = ({ params }: { params: { subservice: string } }) =
           {
             serviceData.items.map((item, i) => {
               return(
-                <div className='bg-white border border-gray-200 rounded-lg p-3 flex flex-col gap-1 cursor-pointer hover:shadow-lg transition-shadow' key={i} data-aos="fade-up" data-aos-delay="300">
+                <div key={i} className='bg-white border border-gray-200 rounded-lg p-3 flex flex-col gap-1 cursor-pointer hover:shadow-lg transition-shadow' data-aos="fade-up" data-aos-delay="300">
                       {/* <img src="/images/usps/delivery.png" className='h-12 w-fit' alt="" /> */}
                       <p className='text-xl font-semibold'>
                           <span>
