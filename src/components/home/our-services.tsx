@@ -5,31 +5,31 @@ import Carousel from 'react-multi-carousel';
 const cardsData = [
     {
         img: "/images/services-card/it-consulting.jpeg",
-        title: "IT Consulting",
+        title: "SERVICENOW IMPLEMENTATION AND SUPPORT",
         desc: "By addressing challenges related to operational effectiveness, business expansion, technology, and management, we help businesses find new technology-driven opportunities.",
         link: ""
     },
     {
         img: "/images/services-card/development.jpg",
-        title: "Development Services",
+        title: "DYNATRACE PERFORMANCE MONITORING",
         desc: "We provide application services for businesses to develop their global penetration and improve their operations' efficiency, security, and functionality.",
         link: ""
     },
     {
         img: "/images/services-card/staffing.jpeg",
-        title: "Staffing",
+        title: "DEVOPS CONSULTING",
         desc: "Our professional team works dedicatedly to provide you with the best candidates for the specific role and to efficiently meet our clients' requirements.",
         link: ""
     },
     {
         img: "/images/services-card/emerging-tech.jpeg",
-        title: "Emerging Technology",
+        title: "OPENTEXT SOLUTIONS",
         desc: "Techthrivesystem has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
         link: ""
     },
     {
         img: "/images/services-card/digital.jpeg",
-        title: "Digital Marketing",
+        title: "CHATBOT DEVELOPMENT",
         desc: "We provide businesses with digital transformation to promote their businesses through creative digital marketing methods and customer experience.",
         link: ""
     },

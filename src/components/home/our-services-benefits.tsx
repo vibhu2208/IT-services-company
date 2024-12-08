@@ -6,54 +6,55 @@ const data: {
     list: string[];
 }[] = [
         {
-            heading: "Artificial intelligence",
-            para: "We empower businesses to embrace the future with cutting-edge AI technologies and strategic consulting. Our comprehensive AI services are designed to automate operations, drive digital transformation, and enhance your return on investment (ROI).",
+            heading: "End-to-End Automation",
+            para: "Any business looking to stay competitive in today’s digital landscape needs process automation. The goal of our Automation Service is to maximize operational efficiency while minimizing errors. With properly implemented automation, your business can gain several advantages:",
             list: [
-                "Generative AI",
-                "Chatbot and AI Assistant",
-                "AI/ML Strategy Consulting",
-                "AI Integration and Deployment",
-                "AI Security",
-                "AI Design"
+                "Significantly reduce operational costs",
+                "Get customized automation solutions for your specific workflows",
+                "Improve process efficiency and accuracy",
+                "Stay ahead of competition through digital transformation",
+                "Free up valuable human resources for strategic tasks"
             ]
         },
         {
-            heading: "Web & Mobile development",
-            para: "We provide our clients managed IT services and user-centric IT solutions to develop top-notch bespoke software, engaging websites, and efficient cloud management services to simplify corporate operations",
-            list: ["Web Development",
-                "Mobile App Development",
-                "E-Commerce Development",
-                "UI/UX Design",
-                "Enterprise Solution"]
+            heading: "ServiceNow Implementation and Support",
+            para: "We provide comprehensive ServiceNow solutions that enable organizations to optimize their IT service management, automate workflows, and enhance overall operational efficiency. With our approach, clients can leverage the full capabilities of ServiceNow to meet their unique business needs.",
+            list: ["Optimize IT service management to reduce downtime and improve delivery. ",
+                "Automate workflows for streamlined operations and increased productivity.",
+                "Implement best practices aligned with industry standards.",
+                "Leverage ServiceNow capabilities to meet unique business needs."]
         },
         {
-            para: "We are a leading staffing agency with expertise in recruiting services, hiring professionals, and staff arguments. We offer staffing services to assist businesses with recruiting to fulfill organisational needs.",
-            heading: "Staffing",
+            heading: "Dynatrace Performance Monitoring",
+            para: "Our Dynatrace experts offer robust performance monitoring solutions that provide actionable insights into application performance and user experience.",
+            
             list: [
-                "Staff Augmentation",
-                "Recruitment Service"
+                "Identify and resolve performance bottlenecks proactively.",
+                "Monitor user interactions to enhance satisfaction levels.",
+                "Ensure optimal performance across all application components.",
+                "Ensure optimal performance across all application components."
+                
             ]
         },
         {
-            para: "From strategic planning to implementation and ongoing support, we provide end-to-end IT consulting services to optimize your IT infrastructure and drive your business forward. Our experts specialize in areas such as cloud computing, data analytics, software development, and IT project management.",
-            heading: "IT Consulting",
+            para: "Our DevOps consulting services streamline development and operations by integrating best practices, tools, and cultural transformation. We focus on fostering collaboration and automation to accelerate delivery cycles and improve quality.",
+            heading: "DevOps Consulting",
             list: [
-                "Salesforce Consulting",
-                "Servicenow Consulting",
-                "Workday Consulting",
-                "Jira Consulting",
-                "Kronos Consulting"
+                "Automate key processes to reduce lead times and improve quality.",
+                "Implement performance metrics and monitoring tools for continuous improvement.",
+                "Foster a culture of agility, collaboration, and continuous improvement.  ",
+                "Integrate development and operations teams for seamless delivery.",
+                "Enhance productivity with tools and practices tailored to your needs."
             ]
         },
         {
-            para: "We provide businesses with digital transformation to promote their businesses through creative digital marketing methods and customer experience advice to keep the regular clients.",
-            heading: "Digital Marketing",
+            para: "We provide comprehensive OpenText support to ensure seamless implementation, integration, and optimization of enterprise content management systems. Our goal is to help businesses maximize operational efficiency with tailored solutions.",
+            heading: "OpenText Solutions",
             list: [
-                "Search Engine Optimization (SEO)",
-                "Pay-per-click Advertising (PPC)",
-                "Social Media Marketing",
-                "Email Marketing",
-                "Content Marketing"
+                "Provide expert guidance for successful OpenText implementations.",
+                "Integrate OpenText solutions with existing systems for enhanced functionality.",
+                "Offer training and knowledge transfer to empower users and administrators.",
+                "Provide expert guidance for successful OpenText implementations."
             ]
         }
     ]

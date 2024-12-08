@@ -3,10 +3,10 @@ import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
 import Link from 'next/link';
-type ServiceKey = "it-consulting" | "development-services" | "staffing" | "emerging-technology" | "digital-marketing";
+type ServiceKey = "opentext-solutions" | "servicenow-implementation-and-support" | "devops-consulting" | "dynatrace-performance-monitoring" | "chatbot-development" | "automation-services" | "web-designing";
 
 const data = {
-  "it-consulting": {
+  "opentext-solutions": {
     desc: "Your technology advisor for the digital age.",
     title1: "Our IT Consulting Services",
     img: "/images/services/itconsulting.png",
@@ -40,7 +40,7 @@ const data = {
       },
     ]
   },
-  "development-services": {
+  "servicenow-implementation-and-support": {
     desc: "Leading the way in software development services.",
     title1: "Bespoke Services",
     img: "/images/services/devimg.jpg",
@@ -79,7 +79,7 @@ const data = {
       },
     ]
   },
-  "staffing": {
+  "devops-consulting": {
     desc: "Empowering Your Workforce.",
     title1: "Our Staffing Services",
     img: "/images/services/staffing.png",
@@ -98,7 +98,7 @@ const data = {
       },
     ]
   },
-  "emerging-technology": {
+  "dynatrace-performance-monitoring": {
     desc: "We leverage high-tech emerging technologies in your business to accomplish your goals.",
     title1: "Our Technological Services",
     img: "/images/services/emerging.png",
@@ -132,7 +132,75 @@ const data = {
       },
     ]
   },
-  "digital-marketing": {
+  "chatbot-development": {
+    desc: "Elevate your online presence with our leading-edge digital marketing strategies.",
+    title1: "Marketing Services",
+    img: "/images/services/digital.png",
+    para1: "Techthrivesystem is a specialized agency that offers a range of services to help businesses promote their products or services online. Our goal is to help businesses increase their online visibility, attract more customers, and ultimately, grow their revenue. With the constantly evolving digital landscape, a digital marketing service providing company keeps up with the latest trends and best practices to ensure that their clients stay ahead of the competition.",
+    title2: "How do our services benefit businesses?",
+    items: [
+      {
+        link: false,
+        title: "Increased Brand Awareness",
+        desc: "We can help businesses reach a wider audience through various online channels, such as social media, search engines, and email marketing, leading to increased brand visibility and awareness."
+      },
+      {
+        link: false,
+        title: "Targeted Marketing",
+        desc: "Our digital marketing services allow businesses to target specific audiences based on demographics, interests, and behavior. This makes marketing initiatives more effective and efficient."
+      },
+      {
+        link: false,
+        title: "Cost-Effective",
+        desc: "We can be more cost-effective than traditional advertising methods like TV and print ads, as this allows businesses to reach a wider audience with a smaller budget."
+      },
+      {
+        link: false,
+        title: "Higher Conversion Rates",
+        desc: "By targeting the right audience with the right message, we can help businesses improve their conversion rates and increase sales."
+      },
+      {
+        link: false,
+        title: "Competitive Advantage",
+        desc: "Businesses that invest in our digital marketing services can gain a competitive advantage over their competitors who rely solely on traditional marketing methods."
+      },
+    ]
+  },
+  "automation-services": {
+    desc: "Elevate your online presence with our leading-edge digital marketing strategies.",
+    title1: "Marketing Services",
+    img: "/images/services/digital.png",
+    para1: "Techthrivesystem is a specialized agency that offers a range of services to help businesses promote their products or services online. Our goal is to help businesses increase their online visibility, attract more customers, and ultimately, grow their revenue. With the constantly evolving digital landscape, a digital marketing service providing company keeps up with the latest trends and best practices to ensure that their clients stay ahead of the competition.",
+    title2: "How do our services benefit businesses?",
+    items: [
+      {
+        link: false,
+        title: "Increased Brand Awareness",
+        desc: "We can help businesses reach a wider audience through various online channels, such as social media, search engines, and email marketing, leading to increased brand visibility and awareness."
+      },
+      {
+        link: false,
+        title: "Targeted Marketing",
+        desc: "Our digital marketing services allow businesses to target specific audiences based on demographics, interests, and behavior. This makes marketing initiatives more effective and efficient."
+      },
+      {
+        link: false,
+        title: "Cost-Effective",
+        desc: "We can be more cost-effective than traditional advertising methods like TV and print ads, as this allows businesses to reach a wider audience with a smaller budget."
+      },
+      {
+        link: false,
+        title: "Higher Conversion Rates",
+        desc: "By targeting the right audience with the right message, we can help businesses improve their conversion rates and increase sales."
+      },
+      {
+        link: false,
+        title: "Competitive Advantage",
+        desc: "Businesses that invest in our digital marketing services can gain a competitive advantage over their competitors who rely solely on traditional marketing methods."
+      },
+    ]
+  },
+  "web-designing": {
     desc: "Elevate your online presence with our leading-edge digital marketing strategies.",
     title1: "Marketing Services",
     img: "/images/services/digital.png",

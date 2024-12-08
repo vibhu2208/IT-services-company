@@ -12,15 +12,16 @@ const About = () => {
       <div data-aos="fade-left" data-aos-delay="300" className='flex-1 order-1 lg:order-2'>
         <h2 className='text-4xl font-bold text-[#1A1F65]'>About Company</h2>
         <p className='md:text-3xl text-2xl font-semibold mt-3'>
-            What We Promise <br /> High Quality IT Solutions
+        TTS Delivers Optimal Value
         </p>
         <p className='pt-4 text-gray-700'>
-        Techthrivesystem is a consulting, IT staffing solutions and workforce support services. We are based out of Houston, TX. We offer a comprehensive portfolio of high-quality, high-value and unparalleled networks of talented IT professionals, IT staffing solutions, IT workforce management expertise – delivered at a size and scale that sets us above any of our competitors. We help our clients achieve their business needs and address their IT workforce challenges by providing 24/7 support throughout the year.
+        The process of web designing involves using the latest technologies to create a highly-functioning website equipped with advanced features. It focuses on improving the look and accessibility of a website.<br />
+        We are a professional Website Design Service offering a wide range of website design solutions. Our approach to web designing is customer-centric. We strive to improve the performance of your website and enrich the user experience.
         </p>
         <div className='grid grid-cols-2 my-3 gap-3'>
-            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> IT Consultancy</div>
-            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Staffing</div>
-            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> SAP</div>
+            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Dynatrace Performance Monitoring</div>
+            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> ChatBot Development</div>
+            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Integration with Existing Systems </div>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Application Development</div>
         </div>
         <Link href={"/about-us"}>

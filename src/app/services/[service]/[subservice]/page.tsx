@@ -2,12 +2,12 @@
 import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
-type ServiceKey = "web-design-development" | "mobile-app-development" | "e-commerce-development" | "enterprise-solutions" | "qa-testing" | "ui-ux" |
-"data-science" | "ai-and-machine-learning" | "extended-reality" | "blockchain" | "automation" | "staffing-services" | "recruitment-services" |
-"workday-services" | "kronos-consulting-services" | "jira-consulting-services"
+type ServiceKey = "web-design-development" | "mobile-app-development" |"cultural-transformation" | "e-commerce-development" | "enterprise-solutions" | "qa-testing" | "ui-ux" |
+"robust-performance-monitoring-solutions" | "actionable-insights" | "user-experience-management" | "comprehensive-application-monitoring" | "streamlining-development-and-operations" | " automation-in-devops" |"performance-metrics-and-monitoring" |
+"end-to-end-implementation-and-support" | "integration-with-existing-and-new-solution" | "training-and-knowledge-transfer" | "integration-with-existing-systems" | "intelligent-chatbots-for-engagement" | "customizable-solutions" | "leveraging-automation-technologies" | "process-optimization" | "scalability-and-flexibility"| "integration-with-existing-systems" | "aesthetic-and-user-friendly-designs" | "responsive-design-techniques" | "seo-friendly-solutions"
 
 const data = {
-  "web-design-development": {
+  "workflow-automation": {
     desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
     title1: "Web Design & Development",
     img: "/images/individual-service/web-design-development.png",
@@ -36,7 +36,327 @@ const data = {
       },
     ]
   },
-  "mobile-app-development": {
+  "seo-friendly-solutions": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "responsive-design-techniques": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "aesthetic-and-user-friendly-designs": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "integration-with-existing-systems": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "scalability-and-flexibility": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "process-optimization": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "leveraging-automation-technologies": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "integration-with-existing-channels": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "customizable-solutions": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "intelligent-chatbots-for-engagement": {
+    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
+    title1: "Web Design & Development",
+    img: "/images/individual-service/web-design-development.png",
+    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Improved Efficiency",
+        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
+      },
+      {
+        title: "Easy Accessibility",
+        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
+      },
+      {
+        title: "Effective Maintenance",
+        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
+      },
+      {
+        title: "Consumer engagement",
+        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
+      },
+      {
+        title: "Advanced Security",
+        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
+      },
+    ]
+  },
+  "performance-metrics-and-monitoring": {
+    desc: "Techthrivesystem specialises in bringing excellence to the business by assisting you in recruiting talented individuals.",
+    title1: "Recrutiment Services",
+    img: "/images/individual-service/recruitment-services.png",
+    para1: "We are a leading recruiting firm that assists businesses with hiring qualified individuals. Our aim is to provide businesses with recruiting services that will enable them to hire more quickly and run their businesses more efficiently. In addition, we provide recruiting partnerships with set durations.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Talent Identification",
+        desc: "Techthrivesystem is a renowned recruitment service provider that gives leading businesses access to a pool of high-quality passive applicants. We provide a thorough recruiting procedure starting with pre-screening applications to find experts that are seasoned and eager to engage with organizations."
+      },
+      {
+        title: "Faster Recruitment",
+        desc: "We connect with potential qualified applicants and businesses more quickly. Our recruiters have a strong understanding of technology, access to large databases, and a network of connections that enable them to quickly match employers with qualified individuals, speeding up the hiring process."
+      },
+      {
+        title: "Save Time",
+        desc: "Our recruitment solution strives to free up time for organizations to focus on growth by dramatically reducing recruiting time. To supply competent individuals to customers, we provide a full hiring process that encompasses everything from screening through onboarding."
+      },
+      {
+        title: "Industry Expertise",
+        desc: "We avail businesses with candidates that help them stand out in the market with their industry expertise. We have industry-specific specialist recruiters to assist you in hiring experts with industry knowledge to meet your market trends."
+      },
+      {
+        title: "Employee Retention",
+        desc: "We ensure that customers receive qualified employees who are well skilled, trained, and dedicated to their jobs. Our focus is to recruit performers who are engaged with their productivity in order to strengthen company culture and brand, consequently enhancing employee retention in the organization."
+      }
+    ]
+    
+  },
+  "comprehensive-servicenow-solutions": {
     desc: "We combine robust functionality with appealing visuals to give your vision a significant presence.",
     title1: "Mobile App Development",
     img: "/images/individual-service/mobile-app-development.png",
@@ -64,6 +384,36 @@ const data = {
         desc: "We are specialists in developing unique solutions best suited to the business requirement. Our team integrates all the necessary components for efficient business operations."
       },
     ]
+  },
+  "training-and-knowledge-transfer": {
+    desc: "Techthrivesystem specialises in bringing excellence to the business by assisting you in recruiting talented individuals.",
+    title1: "Recrutiment Services",
+    img: "/images/individual-service/recruitment-services.png",
+    para1: "We are a leading recruiting firm that assists businesses with hiring qualified individuals. Our aim is to provide businesses with recruiting services that will enable them to hire more quickly and run their businesses more efficiently. In addition, we provide recruiting partnerships with set durations.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Talent Identification",
+        desc: "Techthrivesystem is a renowned recruitment service provider that gives leading businesses access to a pool of high-quality passive applicants. We provide a thorough recruiting procedure starting with pre-screening applications to find experts that are seasoned and eager to engage with organizations."
+      },
+      {
+        title: "Faster Recruitment",
+        desc: "We connect with potential qualified applicants and businesses more quickly. Our recruiters have a strong understanding of technology, access to large databases, and a network of connections that enable them to quickly match employers with qualified individuals, speeding up the hiring process."
+      },
+      {
+        title: "Save Time",
+        desc: "Our recruitment solution strives to free up time for organizations to focus on growth by dramatically reducing recruiting time. To supply competent individuals to customers, we provide a full hiring process that encompasses everything from screening through onboarding."
+      },
+      {
+        title: "Industry Expertise",
+        desc: "We avail businesses with candidates that help them stand out in the market with their industry expertise. We have industry-specific specialist recruiters to assist you in hiring experts with industry knowledge to meet your market trends."
+      },
+      {
+        title: "Employee Retention",
+        desc: "We ensure that customers receive qualified employees who are well skilled, trained, and dedicated to their jobs. Our focus is to recruit performers who are engaged with their productivity in order to strengthen company culture and brand, consequently enhancing employee retention in the organization."
+      }
+    ]
+    
   },
   "e-commerce-development": {
     desc: "E-commerce solutions to empower you with customer retention and your digital business goals",
@@ -152,7 +502,7 @@ const data = {
       },
     ]
   },
-  "ui-ux": {
+  "it-service-management-optimization": {
     desc: "We combine robust functionality with appealing visuals to give your vision a significant presence.",
     title1: "UI & UX Development",
     img: "/images/individual-service/ui-ux.png",
@@ -181,7 +531,7 @@ const data = {
       },
     ]
   },
-  "data-science": {
+  "robust-performance-monitoring-solutions": {
     desc: "We offer tailored solutions that empower you to make informed decisions, optimize processes, and achieve your business objectives",
     title1: "Data Science Services",
     img: "/images/individual-service/data-science.png",
@@ -210,7 +560,7 @@ const data = {
       }
     ]
   },
-  "ai-and-machine-learning": {
+  "actionable-insights": {
     desc: "Empower your business by leveraging its hidden potential using machine learning and AI technologies.",
     title1: "AI & Machine Learning Development Services",
     img: "/images/individual-service/ai-and-machine-learning.png",
@@ -240,7 +590,7 @@ const data = {
     ]
     
   },
-  "extended-reality": {
+  "user-experience-management": {
     desc: "For your audience to understand the value of XR on an enterprise scale, create lifelike XR experiences, such as virtual reality apps and augmented reality software.",
     title1: "Extended Reality Services",
     img: "/images/individual-service/extended-reality.png",
@@ -269,7 +619,7 @@ const data = {
       }
     ]
   },
-  "blockchain": {
+  "comprehensive-application-monitoring": {
     desc: "With Blockchain we will solve insurmountable issues of your business.",
     title1: "Blockchain Services",
     img: "/images/individual-service/blockchain.png",
@@ -299,36 +649,7 @@ const data = {
     ]
     
   },
-  "automation": {
-    desc: "Our IT company offers comprehensive automation services to streamline your business processes and increase efficiency.",
-    title1: "Automation Services",
-    img: "/images/individual-service/automation.png",
-    para1: "Techthrivesystem is committed to helping businesses optimize their operations and achieve their goals. Our team of experienced professionals specializes in developing and implementing custom automation solutions that are tailored to meet the unique needs of each client. We leverage the latest technologies and industry best practices to streamline processes, increase efficiency, and reduce errors.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Increased Efficiency",
-        desc: "We will help eliminate repetitive and time-consuming tasks, freeing up employees to focus on more strategic and complex projects."
-      },
-      {
-        title: "Improved Accuracy",
-        desc: "Automated processes are less prone to human error, resulting in fewer mistakes and improved accuracy."
-      },
-      {
-        title: "Cost Savings",
-        desc: "We will help reduce labour costs and minimize the need for manual intervention, ultimately saving money in the long run."
-      },
-      {
-        title: "Greater Visibility",
-        desc: "We provide greater visibility into operations and performance, enabling organizations to make more informed decisions and identify areas for improvement."
-      },
-      {
-        title: "Enhanced Scalability",
-        desc: "Automated systems can easily adapt to changes in business volume, allowing organizations to scale up or down as needed."
-      }
-    ]
-  },
-  "recruitment-services": {
+  "automation-in-devops": {
     desc: "Techthrivesystem specialises in bringing excellence to the business by assisting you in recruiting talented individuals.",
     title1: "Recrutiment Services",
     img: "/images/individual-service/recruitment-services.png",
@@ -358,7 +679,37 @@ const data = {
     ]
     
   },
-  "staffing-services": {
+  "cultural-transformation": {
+    desc: "Techthrivesystem specialises in bringing excellence to the business by assisting you in recruiting talented individuals.",
+    title1: "Recrutiment Services",
+    img: "/images/individual-service/recruitment-services.png",
+    para1: "We are a leading recruiting firm that assists businesses with hiring qualified individuals. Our aim is to provide businesses with recruiting services that will enable them to hire more quickly and run their businesses more efficiently. In addition, we provide recruiting partnerships with set durations.",
+    title2: "How our services benefit businesses",
+    items: [
+      {
+        title: "Talent Identification",
+        desc: "Techthrivesystem is a renowned recruitment service provider that gives leading businesses access to a pool of high-quality passive applicants. We provide a thorough recruiting procedure starting with pre-screening applications to find experts that are seasoned and eager to engage with organizations."
+      },
+      {
+        title: "Faster Recruitment",
+        desc: "We connect with potential qualified applicants and businesses more quickly. Our recruiters have a strong understanding of technology, access to large databases, and a network of connections that enable them to quickly match employers with qualified individuals, speeding up the hiring process."
+      },
+      {
+        title: "Save Time",
+        desc: "Our recruitment solution strives to free up time for organizations to focus on growth by dramatically reducing recruiting time. To supply competent individuals to customers, we provide a full hiring process that encompasses everything from screening through onboarding."
+      },
+      {
+        title: "Industry Expertise",
+        desc: "We avail businesses with candidates that help them stand out in the market with their industry expertise. We have industry-specific specialist recruiters to assist you in hiring experts with industry knowledge to meet your market trends."
+      },
+      {
+        title: "Employee Retention",
+        desc: "We ensure that customers receive qualified employees who are well skilled, trained, and dedicated to their jobs. Our focus is to recruit performers who are engaged with their productivity in order to strengthen company culture and brand, consequently enhancing employee retention in the organization."
+      }
+    ]
+    
+  },
+  "streamlining-development-and-operations": {
     desc: "Techthrivesystem is your trusted staffing partner, bridging the gap between competent workers and employers.",
     title1: "Staffing Services",
     img: "/images/individual-service/staffing-services.png",
@@ -387,7 +738,7 @@ const data = {
       }
     ]
   },
-  "workday-services": {
+  "end-to-end-implementation-and-support": {
     desc: "Techthrivesystem offers Workday practices, providing comprehensive services utilizing Workday HR and Finance solutions.",
     title1: "Workday Consulting Services",
     img: "/images/individual-service/workday-services.png",
@@ -417,7 +768,7 @@ const data = {
     ]
     
   },
-  "kronos-consulting-services": {
+  "integration-with-existing-and-new-solution": {
     desc: "Our team specialises in connecting businesses with their network of skilled Kronos talent so that they can use Kronos to operate more efficiently.",
     title1: "Kronos Consulting Services",
     img: "/images/individual-service/kronos-consulting-services.png",
@@ -446,7 +797,7 @@ const data = {
       }
     ]
   },
-  "jira-consulting-services": {
+  "integration-with-existing-systems": {
     desc: "We offer an end-to-end solution focused on value creation for your entire team, with best-in-class Agile tooling and deep integrations.",
     title1: "Jira Consulting",
     img: "/images/individual-service/jira-consulting-services.png",
